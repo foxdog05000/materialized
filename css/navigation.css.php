@@ -20,6 +20,7 @@ if (! defined('PMA_MINIMUM_COMMON') && ! defined('TESTSUITE')) {
     overflow: hidden;
     position: fixed;
     top: 0;
+	background-color: white;
     <?php echo $left; ?>: 0;
     height: 100%;
     color: white;
@@ -255,9 +256,9 @@ li.fast_filter.db_fast_filter {
 
 /* Resize handler */
 #pma_navigation_resizer {
-    width: 3px;
+    width: 1px;
     height: 100%;
-    background-color: #aaa;
+    background-color: #cfd8dc;
     cursor: col-resize;
     position: fixed;
     top: 0;

@@ -39,10 +39,6 @@ body#loginform {
     margin: 0;
 }
 
-#page_content {
-    margin: 0 .5em;
-}
-
 <?php if (! empty($GLOBALS['cfg']['FontFamilyFixed'])) { ?>
 textarea,
 tt,
@@ -315,15 +311,13 @@ table td {
 }
 
 /* 3.4 */
-table {
-    border-collapse: collapse;
-}
+table { border-collapse: collapse;}
+thead { line-height: 50px;}
+thead tr th a{ color: white !important;}
+thead tr th:first-child{ border-top-left-radius: 3px;}
+thead tr th:last-child{ border-top-right-radius: 3px;}
+th { text-align: left;}
 
-th {
-    text-align: left;
-}
-
-thead tr th a{color: white !important;}
 
 
 img,
@@ -2656,8 +2650,11 @@ fieldset .disabled-field td {
 }
 
 #page_content {
-    background-color: white;
+    background-color: #eceff1;
+    padding: 0 .5em;
 }
+	
+#tableslistcontainer { padding: 25px;}
 
 .navigation {
     margin: .8em 0;
