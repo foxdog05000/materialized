@@ -207,6 +207,9 @@ if (! defined('PMA_MINIMUM_COMMON') && ! defined('TESTSUITE')) {
     height: 1.5em;
     padding-<?php echo $left; ?>: 0.3em;
 }
+#pma_navigation_tree .selected > a {
+    color: #ff6d00;
+}
 #pma_navigation_tree .list_container {
     border-<?php echo $left; ?>: 1px solid #cfd8dc;
     margin-<?php echo $left; ?>: 0.75em;

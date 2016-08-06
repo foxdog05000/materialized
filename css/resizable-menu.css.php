@@ -34,19 +34,15 @@ ul.resizable-menu ul {
     position: absolute;
     list-style-type: none;
     display: none;
-    border: 1px #ddd solid;
+    /*border: 1px #ddd solid;*/
     z-index: 2;
     <?php echo $right; ?>: 0;
-}
-
-ul.resizable-menu li:hover {
-    <?php echo $_SESSION['PMA_Theme']->getCssGradient('ffffff', 'e5e5e5'); ?>
 }
 
 ul.resizable-menu li:hover ul,
 ul.resizable-menu .submenuhover ul {
     display: block;
-    background: #fff;
+    background: #673ab7;
 }
 
 ul.resizable-menu ul li {

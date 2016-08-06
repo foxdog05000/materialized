@@ -74,6 +74,8 @@ h2 a img {
 
 .data tbody tr th a { color: #ff6d00;}
 .data tbody tr td a, td.value.tbl_size { color: #263238;}
+.data #tbl_summary_row tr th:first-child { border-bottom-left-radius: 3px;}
+.data #tbl_summary_row tr th:last-child { border-bottom-right-radius: 3px;}
 
 .data,
 .data_full_width {
@@ -317,6 +319,7 @@ thead tr th a{ color: white !important;}
 thead tr th:first-child{ border-top-left-radius: 3px;}
 thead tr th:last-child{ border-top-right-radius: 3px;}
 th { text-align: left;}
+tbody tr { border-bottom: 1px solid #f9f8f8; line-height: 2em;}
 
 
 
@@ -473,7 +476,7 @@ table tr.odd th,
 /* (tested on CRTs and ACLs) */
 table tr.even th,
 .even {
-    background: #DFDFDF;
+    background: #ffffff;
     <?php echo $_SESSION['PMA_Theme']->getCssIEClearFilter(); ?>
 }
 
@@ -832,7 +835,8 @@ form.login select {
 
 /* topmenu */
 #topmenu a {
-    text-shadow: 0 1px 0 #fff;
+    /*text-shadow: 0 1px 0 #fff;*/
+	color: white;
 }
 
 #topmenu .error {
@@ -868,14 +872,9 @@ ul#topmenu2 li {
     vertical-align: -3px;
 }
 
-.menucontainer {
-    <?php echo $_SESSION['PMA_Theme']->getCssGradient('ffffff', 'dcdcdc'); ?>
-    border-top: 1px solid #aaa;
-}
-
 /* default tab styles */
 .tabactive {
-    background: #fff !important;
+    border-bottom: 4px solid #ff6d00;
 }
 
 ul#topmenu2 a {
@@ -916,8 +915,8 @@ ul#topmenu ul.only {
 }
 
 ul#topmenu > li {
-    border-right: 1px solid #fff;
-    border-left: 1px solid #ccc;
+    /*border-right: 1px solid #fff;
+    border-left: 1px solid #ccc;*/
 }
 
 /* default tab styles */
@@ -1038,12 +1037,12 @@ div#tablestatistics table {
     width: 100%;
 }
 
+.menucontainer { background: #673ab7;}
+
 #serverinfo {
-    border-bottom: 1px solid #fff;
-    background: #888;
+    background: #673ab7;
     padding: .3em .9em;
     padding-<?php echo $left; ?>: 2.2em;
-    text-shadow: 0 1px 0 #000;
     width: 10000px;
     overflow: hidden;
 }
@@ -1059,7 +1058,6 @@ div#tablestatistics table {
     top: 0;
     <?php echo $right; ?>: 0;
     z-index: 900;
-    background: #888;
 }
 
 #span_table_comment {
