@@ -156,8 +156,7 @@ dfn:hover {
 th {
     font-weight: bold;
     color: <?php echo $GLOBALS['cfg']['ThColor']; ?>;
-    background: #f3f3f3;
-    <?php echo $_SESSION['PMA_Theme']->getCssGradient('ffffff', 'cccccc'); ?>
+    background: #546e7a;
 }
 
 a img {
@@ -313,7 +312,6 @@ table td {
     padding: .3em;
     margin: .1em;
     vertical-align: top;
-    text-shadow: 0 1px 0 #fff;
 }
 
 /* 3.4 */
@@ -322,9 +320,10 @@ table {
 }
 
 th {
-    border-right: 1px solid #fff;
     text-align: left;
 }
+
+thead tr th a{color: white !important;}
 
 
 img,
@@ -625,8 +624,9 @@ td .icon {
 }
 
 .selectallarrow {
-    margin-<?php echo $right; ?>: .3em;
-    margin-<?php echo $left; ?>: .6em;
+	display: none;
+    /*margin-<?php echo $right; ?>: .3em;
+    margin-<?php echo $left; ?>: .6em;*/
 }
 
 /* message boxes: error, confirmation */

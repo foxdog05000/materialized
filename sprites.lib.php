@@ -102,8 +102,8 @@ function PMA_sprites()
         ),
         'b_events' => array(
             'position' => '18',
-            'width'    => '16',
-            'height'   => '16'
+            'width'    => '0',
+            'height'   => '0'
         ),
         'b_export' => array(
             'position' => '19',
@@ -192,13 +192,13 @@ function PMA_sprites()
         ),
         'b_newdb' => array(
             'position' => '36',
-            'width'    => '16',
-            'height'   => '16'
+            'width'    => '0',
+            'height'   => '0'
         ),
         'b_newtbl' => array(
             'position' => '37',
-            'width'    => '16',
-            'height'   => '16'
+            'width'    => '0',
+            'height'   => '0'
         ),
         'b_nextpage' => array(
             'position' => '38',
@@ -307,13 +307,13 @@ function PMA_sprites()
         ),
         'b_table_add' => array(
             'position' => '59',
-            'width'    => '16',
-            'height'   => '16'
+            'width'    => '0',
+            'height'   => '0'
         ),
         'b_tblanalyse' => array(
             'position' => '60',
-            'width'    => '16',
-            'height'   => '16'
+            'width'    => '0',
+            'height'   => '0'
         ),
         'b_tblexport' => array(
             'position' => '61',
@@ -342,13 +342,13 @@ function PMA_sprites()
         ),
         'b_trigger_add' => array(
             'position' => '66',
-            'width'    => '16',
-            'height'   => '16'
+            'width'    => '0',
+            'height'   => '0'
         ),
         'b_triggers' => array(
             'position' => '67',
-            'width'    => '16',
-            'height'   => '16'
+            'width'    => '0',
+            'height'   => '0'
         ),
         'b_undo' => array(
             'position' => '68',

@@ -64,7 +64,7 @@ $GLOBALS['cfg']['Border']               = 0;
 // table header and footer color
 $GLOBALS['cfg']['ThBackground']         = '#D3DCE3';
 // table header and footer background
-$GLOBALS['cfg']['ThColor']              = '#000';
+$GLOBALS['cfg']['ThColor']              = 'white';
 // table data row background
 $GLOBALS['cfg']['BgOne']                = '#E5E5E5';
 // table data row background, alternate
