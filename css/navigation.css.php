@@ -102,9 +102,6 @@ if (! defined('PMA_MINIMUM_COMMON') && ! defined('TESTSUITE')) {
 #pma_navigation_tree a {
     color: <?php echo $GLOBALS['cfg']['NaviColor']; ?>;
 }
-#pma_navigation_tree a:hover {
-    text-decoration: underline;
-}
 #pma_navigation_tree li.activePointer {
     color: <?php echo $GLOBALS['cfg']['NaviPointerColor']; ?>;
     background-color: <?php echo $GLOBALS['cfg']['NaviPointerBackground']; ?>;
@@ -268,7 +265,7 @@ li.fast_filter.db_fast_filter {
 #pma_navigation_collapser {
     width: 20px;
     height: 22px;
-    line-height: 22px;
+    line-height: 40px;
     color: #ffffff;
     font-weight: bold;
     position: fixed;
@@ -278,4 +275,5 @@ li.fast_filter.db_fast_filter {
     cursor: pointer;
     z-index: 800;
     filter: dropshadow(color=#fff, offx=0, offy=1);
+	padding-left: 0.8em;
 }

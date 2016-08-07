@@ -914,8 +914,7 @@ ul#topmenu ul.only {
 }
 
 ul#topmenu > li {
-    /*border-right: 1px solid #fff;
-    border-left: 1px solid #ccc;*/
+	margin-left: 6px;
 }
 
 /* default tab styles */
@@ -1036,12 +1035,12 @@ div#tablestatistics table {
     width: 100%;
 }
 
-.menucontainer { background: #673ab7;}
+.menucontainer { background: #673ab7; padding-left: 0.8em;}
 .menucontainer a img { display: none;}
 
 #serverinfo {
     background: #673ab7;
-    padding: .3em .9em;
+    padding: 1em .9em;
     padding-<?php echo $left; ?>: 2.2em;
     width: 10000px;
     overflow: hidden;
