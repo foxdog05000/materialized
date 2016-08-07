@@ -61,10 +61,6 @@ if (! defined('PMA_MINIMUM_COMMON') && ! defined('TESTSUITE')) {
     border-<?php echo $left; ?>: 1px solid #666;
 }
 
-#pma_navigation div#pmalogo {
-    <?php //better echo $GLOBALS['cfg']['logoBGC']; ?>
-}
-
 #pma_navigation #pmalogo,
 #pma_navigation #serverChoice,
 #pma_navigation #leftframelinks,
@@ -115,7 +111,6 @@ if (! defined('PMA_MINIMUM_COMMON') && ! defined('TESTSUITE')) {
 }
 #pma_navigation_tree li.selected {
     color: <?php echo $GLOBALS['cfg']['NaviPointerColor']; ?>;
-    /*background-color: <?php //echo $GLOBALS['cfg']['NaviPointerBackground']; ?>;*/
 }
 #pma_navigation_tree li .dbItemControls {
     padding-left: 4px;

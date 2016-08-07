@@ -34,7 +34,6 @@ ul.resizable-menu ul {
     position: absolute;
     list-style-type: none;
     display: none;
-    /*border: 1px #ddd solid;*/
     z-index: 2;
     <?php echo $right; ?>: 0;
 }

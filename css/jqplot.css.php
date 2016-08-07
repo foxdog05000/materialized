@@ -1,11 +1,9 @@
 <?php
-/* vim: set expandtab sw=4 ts=4 sts=4: */
 /**
- * Styles for jqplot
- * for the pmahomme theme
+ * Theme information
  *
  * @package    PhpMyAdmin-theme
- * @subpackage PMAHomme
+ * @subpackage materialized
  */
 
 // unplanned execution path
