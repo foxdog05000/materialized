@@ -88,7 +88,7 @@ if (! defined('PMA_MINIMUM_COMMON') && ! defined('TESTSUITE')) {
     margin: 0;
     margin-<?php echo $left; ?>: 10px;
     color: #444;
-    height: 74%;
+    height: 82% !important;
     position: relative;
     margin-top: 20px;
 }

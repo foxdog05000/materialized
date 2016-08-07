@@ -57,8 +57,8 @@ h1 {
 h2 {
     font-size: 2em;
     font-weight: normal;
-    text-shadow: 0 1px 0 #fff;
-    padding: 10px 0 10px;
+    /*text-shadow: 0 1px 0 #fff;*/
+    /*padding: 10px 0 10px;*/
     padding-<?php echo $left; ?>: 3px;
     color: #777;
 }
@@ -1035,7 +1035,7 @@ div#tablestatistics table {
     width: 100%;
 }
 
-.menucontainer { background: #673ab7; padding-left: 0.8em;}
+.menucontainer { background: #673ab7; padding-left: 0.8em; /*padding: 0.5em 1.5em;*/}
 .menucontainer a img { display: none;}
 
 #serverinfo {
@@ -1737,29 +1737,29 @@ div.sqlvalidate {
 
 .group {
 
-    border: 1px solid #999;
-    background: #f3f3f3;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-    border-radius: 4px;
-    -moz-box-shadow: <?php echo $GLOBALS['text_dir'] === 'rtl' ? '-' : ''; ?>2px 2px 5px #ccc;
-    -webkit-box-shadow: <?php echo $GLOBALS['text_dir'] === 'rtl' ? '-' : ''; ?>2px 2px 5px #ccc;
-    box-shadow: <?php echo $GLOBALS['text_dir'] === 'rtl' ? '-' : ''; ?>2px 2px 5px #ccc;
+    /*border: 1px solid #999;*/
+    background: #fafafa;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -moz-box-shadow: <?php echo $GLOBALS['text_dir'] === 'rtl' ? '-' : ''; ?>0 0 5px #ccc;
+    -webkit-box-shadow: <?php echo $GLOBALS['text_dir'] === 'rtl' ? '-' : ''; ?>0 0 5px #ccc;
+    box-shadow: <?php echo $GLOBALS['text_dir'] === 'rtl' ? '-' : ''; ?>0 0 5px #ccc;
     margin-bottom: 1em;
     padding-bottom: 1em;
 }
 
 .group h2 {
-    background-color: #bbb;
-    padding: .1em .3em;
-    margin-top: 0;
-    color: #fff;
+    /*background-color: #bbb;*/
+    padding: 1em 1em 0 1em;
+    /*margin-top: 0;*/
+    color: #673ab7;
     font-size: 1.6em;
     font-weight: normal;
-    text-shadow: 0 1px 0 #777;
+    /*text-shadow: 0 1px 0 #777;
     -moz-box-shadow: <?php echo $GLOBALS['text_dir'] === 'rtl' ? '-' : ''; ?>1px 1px 15px #999 inset;
     -webkit-box-shadow: <?php echo $GLOBALS['text_dir'] === 'rtl' ? '-' : ''; ?>1px 1px 15px #999 inset;
-    box-shadow: <?php echo $GLOBALS['text_dir'] === 'rtl' ? '-' : ''; ?>1px 1px 15px #999 inset;
+    box-shadow: <?php echo $GLOBALS['text_dir'] === 'rtl' ? '-' : ''; ?>1px 1px 15px #999 inset;*/
 }
 
 .group-cnt {
@@ -2648,10 +2648,8 @@ fieldset .disabled-field td {
 
 #page_content {
     background-color: #eceff1;
-    padding: 0 .5em;
+	padding: 25px;
 }
-	
-#tableslistcontainer { padding: 25px;}
 
 .navigation {
     margin: .8em 0;
