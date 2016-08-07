@@ -6,4 +6,4 @@ Theme material design for phpmyadmin inspire per the [design by Agustin](http://
 
 ## install
 Placing the folder named materialized in :
-> <yourpathwamp>/apps/phpmyadminx.x.x/themes/
+> ...yourpathwamp.../apps/phpmyadminx.x.x/themes/
