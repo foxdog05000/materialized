@@ -92,8 +92,8 @@ function PMA_sprites()
         ),
         'b_engine' => array(
             'position' => '16',
-            'width'    => '16',
-            'height'   => '16'
+            'width'    => '0',
+            'height'   => '0'
         ),
         'b_event_add' => array(
             'position' => '17',
@@ -592,8 +592,8 @@ function PMA_sprites()
         ),
         's_asci' => array(
             'position' => '116',
-            'width'    => '16',
-            'height'   => '16'
+            'width'    => '0',
+            'height'   => '0'
         ),
         's_attention' => array(
             'position' => '117',
@@ -637,8 +637,8 @@ function PMA_sprites()
         ),
         's_host' => array(
             'position' => '125',
-            'width'    => '16',
-            'height'   => '16'
+            'width'    => '0',
+            'height'   => '0'
         ),
         's_info' => array(
             'position' => '126',
@@ -687,8 +687,8 @@ function PMA_sprites()
         ),
         's_replication' => array(
             'position' => '135',
-            'width'    => '16',
-            'height'   => '16'
+            'width'    => '0',
+            'height'   => '0'
         ),
         's_rights' => array(
             'position' => '136',
@@ -702,8 +702,8 @@ function PMA_sprites()
         ),
         's_status' => array(
             'position' => '138',
-            'width'    => '16',
-            'height'   => '16'
+            'width'    => '0',
+            'height'   => '0'
         ),
         's_success' => array(
             'position' => '139',
@@ -732,8 +732,8 @@ function PMA_sprites()
         ),
         's_vars' => array(
             'position' => '144',
-            'width'    => '16',
-            'height'   => '16'
+            'width'    => '0',
+            'height'   => '0'
         ),
         's_views' => array(
             'position' => '145',

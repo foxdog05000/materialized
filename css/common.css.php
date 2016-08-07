@@ -32,7 +32,7 @@ body {
     margin: 0;
     margin-<?php echo $left; ?>: 240px;
     color: #444;
-    background: #fff;
+    background: #eceff1;
 }
 
 body#loginform {
@@ -115,7 +115,6 @@ p a:visited{
 }
 
 a:hover {
-    text-decoration: underline;
     color: #235a81;
 }
 
@@ -322,7 +321,6 @@ th { text-align: left;}
 tbody tr { border-bottom: 1px solid #f9f8f8; line-height: 2em;}
 
 
-
 img,
 button {
     vertical-align: middle;
@@ -468,7 +466,7 @@ button.mult_submit {
 /* odd items 1,3,5,7,... */
 table tr.odd th,
 .odd {
-    background: #fff;
+    background: #fafafa;
     <?php echo $_SESSION['PMA_Theme']->getCssIEClearFilter(); ?>
 }
 
@@ -476,7 +474,7 @@ table tr.odd th,
 /* (tested on CRTs and ACLs) */
 table tr.even th,
 .even {
-    background: #ffffff;
+    background: #fafafa;
     <?php echo $_SESSION['PMA_Theme']->getCssIEClearFilter(); ?>
 }
 
@@ -504,7 +502,7 @@ table tr.marked {
 .odd:hover,
 .even:hover,
 .hover {
-    <?php echo $_SESSION['PMA_Theme']->getCssGradient('ced6df', 'b6c6d7'); ?>
+	background-color: white;
     color: <?php echo $GLOBALS['cfg']['BrowsePointerColor']; ?>;
 }
 
@@ -512,7 +510,7 @@ table tr.marked {
 table tr.odd:hover th,
 table tr.even:hover th,
 table tr.hover th {
-    <?php echo $_SESSION['PMA_Theme']->getCssGradient('ced6df', 'b6c6d7'); ?>
+    background-color: white;
     color: <?php echo $GLOBALS['cfg']['BrowsePointerColor']; ?>;
 }
 <?php } ?>
@@ -558,7 +556,8 @@ table .valueHeader {
     white-space: normal;
 }
 table .value {
-    text-align: <?php echo $right; ?>;
+    text-align: center;
+	text-align: -webkit-center;
     white-space: normal;
 }
 /* IE doesnt handles 'pre' right */
@@ -846,7 +845,6 @@ form.login select {
 ul#topmenu,
 ul#topmenu2,
 ul.tabs {
-    font-weight: bold;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -874,6 +872,7 @@ ul#topmenu2 li {
 
 /* default tab styles */
 .tabactive {
+	font-weight: bold;
     border-bottom: 4px solid #ff6d00;
 }
 
@@ -1038,6 +1037,7 @@ div#tablestatistics table {
 }
 
 .menucontainer { background: #673ab7;}
+.menucontainer a img { display: none;}
 
 #serverinfo {
     background: #673ab7;

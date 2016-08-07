@@ -94,6 +94,7 @@ if (! defined('PMA_MINIMUM_COMMON') && ! defined('TESTSUITE')) {
     color: #444;
     height: 74%;
     position: relative;
+    margin-top: 20px;
 }
 #pma_navigation_tree_content {
     width: 100%;
@@ -209,6 +210,7 @@ if (! defined('PMA_MINIMUM_COMMON') && ! defined('TESTSUITE')) {
 }
 #pma_navigation_tree .selected > a {
     color: #ff6d00;
+    font-weight: bold;
 }
 #pma_navigation_tree .list_container {
     border-<?php echo $left; ?>: 1px solid #cfd8dc;
