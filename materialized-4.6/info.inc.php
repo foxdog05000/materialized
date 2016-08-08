@@ -4,17 +4,17 @@
  * Theme information
  *
  * @package    PhpMyAdmin-theme
- * @subpackage PMAHomme
+ * @subpackage materialized-4.6
  */
 
 /**
  * If you have problems or questions about this theme email
- * mikehomme@users.sourceforge.net
+ * foxdog.orion@gmail.com
  */
 
 /**
  * Icon set used by this theme: http://famfamfam.com/lab/icons/silk/
  */
 
-$theme_name = 'pmahomme';
-$theme_full_version = '1.1';
+$theme_name = 'materialized';
+$theme_full_version = '0.1';

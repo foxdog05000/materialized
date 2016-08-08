@@ -3,7 +3,7 @@
  * Theme information
  *
  * @package    PhpMyAdmin-theme
- * @subpackage materialized
+ * @subpackage materialized-4.1
  */
 
 /**
