@@ -5,7 +5,7 @@
  * for the pmahomme theme
  *
  * @package    PhpMyAdmin-theme
- * @subpackage PMAHomme
+ * @subpackage materialized-4.6
  */
 
 // unplanned execution path

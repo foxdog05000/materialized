@@ -16,5 +16,5 @@
  * Icon set used by this theme: http://famfamfam.com/lab/icons/silk/
  */
 
-$theme_name = 'materialized';
+$theme_name = 'materialized-4.6';
 $theme_full_version = '0.1';

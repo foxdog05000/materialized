@@ -6,7 +6,7 @@
  * used by js/jquery/jquery.menuResizer-1.0.js
  *
  * @package    PhpMyAdmin-theme
- * @subpackage PMAHomme
+ * @subpackage materialized-4.6
  */
 
 // unplanned execution path
@@ -42,14 +42,14 @@ ul.resizable-menu ul {
     <?php echo $right; ?>: 0;
 }
 
-ul.resizable-menu li:hover {
-    <?php echo $_SESSION['PMA_Theme']->getCssGradient('ffffff', 'e5e5e5'); ?>
+ul.resizable-menu li:hover a {
+    border-bottom: 4px solid #ff6d00;
 }
 
 ul.resizable-menu li:hover ul,
 ul.resizable-menu .submenuhover ul {
     display: block;
-    background: #fff;
+    background: #673ab7;
 }
 
 ul.resizable-menu ul li {

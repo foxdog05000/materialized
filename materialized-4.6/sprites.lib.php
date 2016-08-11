@@ -4,7 +4,7 @@
  * ALL CHANGES WILL BE UNDONE!
  * RUN `./scripts/generate-sprites` TO UPDATE THIS FILE
  *
- * @package PhpMyAdmin-theme
+ * @package materialized-4.6
  */
 
 /**
@@ -27,8 +27,8 @@ function PMA_sprites()
         ),
         'b_browse' => array(
             'position' => '3',
-            'width'    => '16',
-            'height'   => '16'
+            'width'    => '0',
+            'height'   => '0'
         ),
         'b_calendar' => array(
             'position' => '4',
@@ -37,8 +37,8 @@ function PMA_sprites()
         ),
         'b_chart' => array(
             'position' => '5',
-            'width'    => '16',
-            'height'   => '16'
+            'width'    => '0',
+            'height'   => '0'
         ),
         'b_close' => array(
             'position' => '6',
@@ -77,13 +77,13 @@ function PMA_sprites()
         ),
         'b_drop' => array(
             'position' => '13',
-            'width'    => '16',
-            'height'   => '16'
+            'width'    => '0',
+            'height'   => '0'
         ),
         'b_edit' => array(
             'position' => '14',
-            'width'    => '16',
-            'height'   => '16'
+            'width'    => '0',
+            'height'   => '0'
         ),
         'b_empty' => array(
             'position' => '15',
@@ -92,8 +92,8 @@ function PMA_sprites()
         ),
         'b_engine' => array(
             'position' => '16',
-            'width'    => '16',
-            'height'   => '16'
+            'width'    => '0',
+            'height'   => '0'
         ),
         'b_event_add' => array(
             'position' => '17',
@@ -107,8 +107,8 @@ function PMA_sprites()
         ),
         'b_export' => array(
             'position' => '19',
-            'width'    => '16',
-            'height'   => '16'
+            'width'    => '0',
+            'height'   => '0'
         ),
         'b_favorite' => array(
             'position' => '20',
@@ -147,8 +147,8 @@ function PMA_sprites()
         ),
         'b_import' => array(
             'position' => '27',
-            'width'    => '16',
-            'height'   => '16'
+            'width'    => '0',
+            'height'   => '0'
         ),
         'b_index' => array(
             'position' => '28',
@@ -172,8 +172,8 @@ function PMA_sprites()
         ),
         'b_insrow' => array(
             'position' => '32',
-            'width'    => '16',
-            'height'   => '16'
+            'width'    => '0',
+            'height'   => '0'
         ),
         'b_lastpage' => array(
             'position' => '33',
@@ -197,8 +197,8 @@ function PMA_sprites()
         ),
         'b_newdb' => array(
             'position' => '37',
-            'width'    => '16',
-            'height'   => '16'
+            'width'    => '0',
+            'height'   => '0'
         ),
         'b_newtbl' => array(
             'position' => '38',
@@ -237,13 +237,13 @@ function PMA_sprites()
         ),
         'b_print' => array(
             'position' => '45',
-            'width'    => '16',
-            'height'   => '16'
+            'width'    => '0',
+            'height'   => '0'
         ),
         'b_props' => array(
             'position' => '46',
-            'width'    => '16',
-            'height'   => '16'
+            'width'    => '0',
+            'height'   => '0'
         ),
         'b_relations' => array(
             'position' => '47',
@@ -287,8 +287,8 @@ function PMA_sprites()
         ),
         'b_search' => array(
             'position' => '55',
-            'width'    => '16',
-            'height'   => '16'
+            'width'    => '0',
+            'height'   => '0'
         ),
         'b_selboard' => array(
             'position' => '56',
@@ -312,8 +312,8 @@ function PMA_sprites()
         ),
         'b_sql' => array(
             'position' => '60',
-            'width'    => '16',
-            'height'   => '16'
+            'width'    => '0',
+            'height'   => '0'
         ),
         'b_sqldoc' => array(
             'position' => '61',
@@ -327,8 +327,8 @@ function PMA_sprites()
         ),
         'b_table_add' => array(
             'position' => '63',
-            'width'    => '16',
-            'height'   => '16'
+            'width'    => '0',
+            'height'   => '0'
         ),
         'b_tblanalyse' => array(
             'position' => '64',
@@ -337,18 +337,18 @@ function PMA_sprites()
         ),
         'b_tblexport' => array(
             'position' => '65',
-            'width'    => '16',
-            'height'   => '16'
+            'width'    => '0',
+            'height'   => '0'
         ),
         'b_tblimport' => array(
             'position' => '66',
-            'width'    => '16',
-            'height'   => '16'
+            'width'    => '0',
+            'height'   => '0'
         ),
         'b_tblops' => array(
             'position' => '67',
-            'width'    => '16',
-            'height'   => '16'
+            'width'    => '0',
+            'height'   => '0'
         ),
         'b_tbloptimize' => array(
             'position' => '68',
@@ -367,8 +367,8 @@ function PMA_sprites()
         ),
         'b_triggers' => array(
             'position' => '71',
-            'width'    => '16',
-            'height'   => '16'
+            'width'    => '0',
+            'height'   => '0'
         ),
         'b_undo' => array(
             'position' => '72',
@@ -417,8 +417,8 @@ function PMA_sprites()
         ),
         'b_view_add' => array(
             'position' => '81',
-            'width'    => '16',
-            'height'   => '16'
+            'width'    => '0',
+            'height'   => '0'
         ),
         'b_views' => array(
             'position' => '82',
@@ -647,8 +647,8 @@ function PMA_sprites()
         ),
         's_asci' => array(
             'position' => '127',
-            'width'    => '16',
-            'height'   => '16'
+            'width'    => '0',
+            'height'   => '0'
         ),
         's_attention' => array(
             'position' => '128',
@@ -672,8 +672,8 @@ function PMA_sprites()
         ),
         's_db' => array(
             'position' => '132',
-            'width'    => '16',
-            'height'   => '16'
+            'width'    => '0',
+            'height'   => '0'
         ),
         's_desc' => array(
             'position' => '133',
@@ -692,8 +692,8 @@ function PMA_sprites()
         ),
         's_host' => array(
             'position' => '136',
-            'width'    => '16',
-            'height'   => '16'
+            'width'    => '0',
+            'height'   => '0'
         ),
         's_info' => array(
             'position' => '137',
@@ -752,13 +752,13 @@ function PMA_sprites()
         ),
         's_replication' => array(
             'position' => '148',
-            'width'    => '16',
-            'height'   => '16'
+            'width'    => '0',
+            'height'   => '0'
         ),
         's_rights' => array(
             'position' => '149',
-            'width'    => '16',
-            'height'   => '16'
+            'width'    => '0',
+            'height'   => '0'
         ),
         's_sortable' => array(
             'position' => '150',
@@ -767,8 +767,8 @@ function PMA_sprites()
         ),
         's_status' => array(
             'position' => '151',
-            'width'    => '16',
-            'height'   => '16'
+            'width'    => '0',
+            'height'   => '0'
         ),
         's_success' => array(
             'position' => '152',
@@ -802,8 +802,8 @@ function PMA_sprites()
         ),
         's_vars' => array(
             'position' => '158',
-            'width'    => '16',
-            'height'   => '16'
+            'width'    => '0',
+            'height'   => '0'
         ),
         's_views' => array(
             'position' => '159',

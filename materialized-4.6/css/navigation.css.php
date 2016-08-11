@@ -4,7 +4,7 @@
  * Navigation styles for the pmahomme theme
  *
  * @package    PhpMyAdmin-theme
- * @subpackage PMAHomme
+ * @subpackage materialized-4.6
  */
 
 // unplanned execution path
@@ -21,8 +21,7 @@ if (! defined('PMA_MINIMUM_COMMON') && ! defined('TESTSUITE')) {
     position: fixed;
     top: 0;
     <?php echo $left; ?>: 0;
-    height: 100%;
-    background: url(./themes/pmahomme/img/left_nav_bg.png) repeat-y right 0 <?php echo $GLOBALS['cfg']['NaviBackground']; ?>;
+    height: 100%; repeat-y right 0 <?php echo $GLOBALS['cfg']['NaviBackground']; ?>;
     color: <?php echo $GLOBALS['cfg']['NaviColor']; ?>;
     z-index: 800;
 }
@@ -337,9 +336,9 @@ li.fast_filter.db_fast_filter {
 
 /* Resize handler */
 #pma_navigation_resizer {
-    width: 3px;
+    width: 1px;
     height: 100%;
-    background-color: #aaa;
+    background-color: #cfd8dc;
     cursor: col-resize;
     position: fixed;
     top: 0;
@@ -347,11 +346,10 @@ li.fast_filter.db_fast_filter {
     z-index: 801;
 }
 #pma_navigation_collapser {
-    width: 20px;
+    width: 35px;
     height: 22px;
     line-height: 22px;
-    background: #eee;
-    color: #555;
+    color: #fff;
     font-weight: bold;
     position: fixed;
     top: 0;
@@ -359,9 +357,6 @@ li.fast_filter.db_fast_filter {
     text-align: center;
     cursor: pointer;
     z-index: 800;
-    text-shadow: 0 1px 0 #fff;
-    filter: dropshadow(color=#fff, offx=0, offy=1);
-    border: 1px solid #888;
 }
 
 /* Quick warp links */

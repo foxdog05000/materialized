@@ -4,7 +4,7 @@
  * Common styles for the pmahomme theme
  *
  * @package    PhpMyAdmin-theme
- * @subpackage PMAHomme
+ * @subpackage materialized-4.6
  */
 
 // unplanned execution path
@@ -905,7 +905,7 @@ form.login select {
 
 /* topmenu */
 #topmenu a {
-    text-shadow: 0 1px 0 #fff;
+    color: white;
 }
 
 #topmenu .error {
@@ -942,13 +942,7 @@ ul#topmenu2 li {
 }
 
 .menucontainer {
-    <?php echo $_SESSION['PMA_Theme']->getCssGradient('ffffff', 'dcdcdc'); ?>
-    border-top: 1px solid #aaa;
-}
-
-/* default tab styles */
-.tabactive {
-    background: #fff !important;
+	background-color: #673ab7;
 }
 
 ul#topmenu2 a {
@@ -986,12 +980,6 @@ ul#topmenu ul {
 
 ul#topmenu ul.only {
     <?php echo $left; ?>: 0;
-}
-
-ul#topmenu > li {
-    border-right: 1px solid #fff;
-    border-left: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
 }
 
 ul#topmenu > li:first-child {
@@ -1121,7 +1109,7 @@ div#tablestatistics table {
 }
 
 #serverinfo {
-    background: #888;
+    background: #673ab7;
     padding: .3em .9em;
     padding-<?php echo $left; ?>: 2.2em;
     text-shadow: 0 1px 0 #000;
@@ -1144,7 +1132,6 @@ div#tablestatistics table {
 
 #goto_pagetop, #lock_page_icon, #page_settings_icon {
     padding: .25em;
-    background: #888;
 }
 
 #page_settings_icon {

@@ -5,7 +5,7 @@
  * for detailed layout configuration please refer to the css files
  *
  * @package    PhpMyAdmin-theme
- * @subpackage PMAHomme
+ * @subpackage materialized-4.6
  */
 
 /**
@@ -18,7 +18,7 @@ $GLOBALS['cfg']['NaviWidth']                = 240;
 $GLOBALS['cfg']['NaviColor']                = '#000';
 
 // background for the navi frame
-$GLOBALS['cfg']['NaviBackground']           = '#f3f3f3';
+$GLOBALS['cfg']['NaviBackground']           = '#fff';
 
 // foreground (text) color of the pointer in navi frame
 $GLOBALS['cfg']['NaviPointerColor']         = '#000';
