@@ -74,6 +74,7 @@ h2 a img {
 
 .data tbody tr th a { color: #ff6d00;}
 .data tbody tr td a, td.value.tbl_size { color: #263238;}
+.data tbody tr th.name { color: #444;}
 .data #tbl_summary_row tr th:first-child { border-bottom-left-radius: 3px;}
 .data #tbl_summary_row tr th:last-child { border-bottom-right-radius: 3px;}
 
@@ -643,7 +644,6 @@ div.success,
 div.notice,
 div.error {
     margin: .5em 0 1.3em;
-    border: 1px solid;
     background-repeat: no-repeat;
         <?php if ($GLOBALS['text_dir'] === 'ltr') { ?>
     background-position: 10px 50%;
@@ -652,14 +652,6 @@ div.error {
     background-position: 99% 50%;
     padding: 10px 35px 10px 10px;
         <?php } ?>
-
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
-
-    -moz-box-shadow: 0 1px 1px #fff inset;
-    -webkit-box-shadow: 0 1px 1px #fff inset;
-    box-shadow: 0 1px 1px #fff inset;
 }
 
 .success a,
@@ -669,8 +661,8 @@ div.error {
 }
 
 .success {
-    color: #000;
-    background-color: #ebf8a4;
+    color: #fff;
+    background-color: #80dc62;
 }
 
 h1.success,

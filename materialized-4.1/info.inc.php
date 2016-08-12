@@ -16,6 +16,6 @@
  * Icon set used by this theme: https://design.google.com/icons/
  */
 
-$theme_name = 'materialized';
+$theme_name = 'materialized-4.1';
 $theme_full_version = '0.1';
 ?>

@@ -58,7 +58,7 @@ if (! defined('PMA_MINIMUM_COMMON') && ! defined('TESTSUITE')) {
     text-align: center;
     margin: 0;
     margin-<?php echo $left; ?>: 0.75em;
-    border-<?php echo $left; ?>: 1px solid #666;
+    border-<?php echo $left; ?>: 1px solid #cfd8dc;
 }
 
 #pma_navigation #pmalogo,
@@ -218,7 +218,7 @@ li.fast_filter {
     padding-<?php echo $left; ?>: 0.75em;
     margin-<?php echo $left; ?>: 0.75em;
     padding-<?php echo $right; ?>: 35px;
-    border-<?php echo $left; ?>: 1px solid #666;
+    border-<?php echo $left; ?>: 1px solid #cfd8dc;
 }
 li.fast_filter input {
     padding-<?php echo $right; ?>: 1.7em;
