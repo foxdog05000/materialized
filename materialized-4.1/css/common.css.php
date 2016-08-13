@@ -259,16 +259,12 @@ textarea.char {
 
 fieldset {
     margin-top: 1em;
-    border-radius: 4px 4px 0 0;
-    -moz-border-radius: 4px 4px 0 0;
-    -webkit-border-radius: 4px 4px 0 0;
-    border: #aaa solid 1px;
-    padding: 1.5em;
-    background: #eee;
-    text-shadow: <?php echo $GLOBALS['text_dir'] === 'rtl' ? '-' : ''; ?>1px 1px 2px #fff inset;
-    -moz-box-shadow: <?php echo $GLOBALS['text_dir'] === 'rtl' ? '-' : ''; ?>1px 1px 2px #fff inset;
-    -webkit-box-shadow: <?php echo $GLOBALS['text_dir'] === 'rtl' ? '-' : ''; ?>1px 1px 2px #fff inset;
-    box-shadow: <?php echo $GLOBALS['text_dir'] === 'rtl' ? '-' : ''; ?>1px 1px 2px #fff inset;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    padding: 3em 1.5em 1.5em 1.5em;
+    background: #fafafa;
+    border: transparent;
 }
 
 fieldset fieldset {
@@ -276,22 +272,16 @@ fieldset fieldset {
     background: #fff;
     border: 1px solid #aaa;
     background: #E8E8E8;
-
 }
 
 fieldset legend {
     font-weight: bold;
-    color: #444;
+    color: #673ab7;
     padding: 5px 10px;
-    border-radius: 2px;
-    -moz-border-radius: 2px;
-    -webkit-border-radius: 2px;
-    border: 1px solid #aaa;
-    background-color: #fff;
-    -moz-box-shadow: <?php echo $GLOBALS['text_dir'] === 'rtl' ? '-' : ''; ?>3px 3px 15px #bbb;
-    -webkit-box-shadow: <?php echo $GLOBALS['text_dir'] === 'rtl' ? '-' : ''; ?>3px 3px 15px #bbb;
-    box-shadow: <?php echo $GLOBALS['text_dir'] === 'rtl' ? '-' : ''; ?>3px 3px 15px #bbb;
     max-width: 100%;
+    position: relative;
+    top: 2.5em;
+    left: -18px;
 }
 
 .some-margin {
@@ -674,8 +664,7 @@ div.success {
 }
 
 .notice {
-    color: #000;
-    background-color: #e8eef1;
+    background-color: #ece08d;
 }
 
 h1.notice,
@@ -1587,7 +1576,7 @@ div#queryboxcontainer div#bookmarkoptions {
 }
 
 #maincontainer ul {
-    list-style-type: disc;
+    list-style-type: none;
     vertical-align: middle;
 }
 

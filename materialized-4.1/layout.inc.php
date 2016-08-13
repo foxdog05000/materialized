@@ -22,7 +22,7 @@ $GLOBALS['cfg']['NaviBackground']           = '#f3f3f3';
 $GLOBALS['cfg']['NaviPointerColor']         = '#000';
 
 // background of the pointer in navi frame
-$GLOBALS['cfg']['NaviPointerBackground']    = '#ddd';
+$GLOBALS['cfg']['NaviPointerBackground']    = '#eae9e9';
 
 /**
  * main frame

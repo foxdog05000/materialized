@@ -317,8 +317,8 @@ function PMA_sprites()
         ),
         'b_tblexport' => array(
             'position' => '61',
-            'width'    => '16',
-            'height'   => '16'
+            'width'    => '0',
+            'height'   => '0'
         ),
         'b_tblimport' => array(
             'position' => '62',
@@ -362,8 +362,8 @@ function PMA_sprites()
         ),
         'b_usradd' => array(
             'position' => '70',
-            'width'    => '16',
-            'height'   => '16'
+            'width'    => '0',
+            'height'   => '0'
         ),
         'b_usrcheck' => array(
             'position' => '71',
@@ -372,13 +372,13 @@ function PMA_sprites()
         ),
         'b_usrdrop' => array(
             'position' => '72',
-            'width'    => '16',
-            'height'   => '16'
+            'width'    => '0',
+            'height'   => '0'
         ),
         'b_usredit' => array(
             'position' => '73',
-            'width'    => '16',
-            'height'   => '16'
+            'width'    => '0',
+            'height'   => '0'
         ),
         'b_usrlist' => array(
             'position' => '74',
