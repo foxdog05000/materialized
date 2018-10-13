@@ -1,0 +1,8 @@
+{
+    "name": "Material",
+    "version": "0.1",
+    "description": "Material Design theme for phpMyAdmin",
+    "author": "Alex Torres",
+    "url": "",
+    "supports": ["4.8"]
+}
