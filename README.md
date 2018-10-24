@@ -1,6 +1,6 @@
 ![logo phpmyadmin materialized](https://github.com/foxdog05000/materialized/blob/master/materialized-4.1/img/logo_left.png "Logo phpmyadmin materialized")
 
-# materialized (Work in progress)
+# materialized (Work in standby) (View here : https://github.com/AlexTorresSk/PMA-Material)
 Theme material design for phpmyadmin inspire per the [design by Agustin](http://www.materialup.com/posts/phpmyadmin-material-design)
 
 
